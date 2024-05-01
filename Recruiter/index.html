@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>TheRecruiter | HTML / CSS / JS</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo">TheRecruiter</a>
+
+      <div class="header-right">
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <!-- <a href="#about">About</a> -->
+          <a href="#recruits">Meet The Recruits</a>
+          <!-- <a href="#contact">Contact</a> -->
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home-images fade">
+        <img src="images/pro-portrait-3-edit.jpg" alt="" />
+      </div>
+
+      <div class="home-content">
+        <h1>
+          Looking for new recuits?
+          <div class="jumping-dot" id="jd1"></div>
+          <div class="jumping-dot" id="jd2"></div>
+          <div class="jumping-dot" id="jd3"></div>
+        </h1>
+        <h2>We've got you</h2>
+        <p>
+          Our goal is to provide our clients with a hassle free experience for
+          finding the most qualified and profesisonal employees in the market.
+        </p>
+        <a class="btn" id="home-btn" href="#recruits">Let's find your guy</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <!-- <section class="about" id="about">
+      <div class="title">
+        <h1>About <span>Us</span></h1>
+        <h2>Connecting <span>people</span> is what we do</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-customers">
+          <h2><span>•</span> For customers</h2>
+          <p>
+            Our customers and employers for companies both small and large who
+            seek professional contractors or newbies to take under their wing to
+            develop their enterprise. We provide you as our customers verified
+            and thorough information on our clients so that you make the most
+            informed decision possible when hiring.
+          </p>
+        </div>
+        <div class="about-layer">
+          <img src="images/about-img-2.jpg" alt="" />
+          <div class="layer-content">
+            <h1>Become A Customer</h1>
+          </div>
+        </div>
+
+        <div class="about-clients">
+          <h2><span>•</span> For clients</h2>
+          <p>
+            Our clients are those seeking work or self-employed after offered
+            contracts, and those looking to enter a company full-time. When you
+            undergo the process to become a client of us, we will perform a
+            simple and thorough analysis of your skills and qualifications to
+            increase your chances of attaining work.
+          </p>
+        </div>
+        <div class="about-layer">
+          <img src="images/about-img-1.jpg" alt="" />
+          <div class="layer-content">
+            <h1>Become A Client</h1>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- TheRecruits -->
+    <section class="recruits" id="recruits">
+      <div class="recruits-container">
+        <!-- Slider main container -->
+        <h2 class="recruits-title">
+          Meet the <span class="recruits-span">Recruits</span>
+        </h2>
+        <div class="recruit-wrapper">
+          <div class="recruit-box mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="recruit-content swiper-wrapper">
+              <!-- Slides -->
+              <div class="recruit-slide swiper-slide">
+                <span class="bg-decor"></span>
+                <div class="image-animate">
+                  <img src="images/pro-portrait-1.jpg" alt="" />
+                  <h2>Expert Financier</h2>
+                </div>
+                <h3>John DeGali</h3>
+                <p>
+                  John is a professional in Financial analysis, equipped with
+                  the knowledge and skills to enhance your business's finances
+                  in more ways than one.
+                </p>
+              </div>
+
+              <div class="recruit-slide swiper-slide">
+                <span class="bg-decor"></span>
+                <div class="image-animate">
+                  <img src="images/pro-portrait-2.jpg" alt="" />
+                  <h2>Cloud Developer</h2>
+                </div>
+                <h3>Debra Fhahrenheit</h3>
+                <h2>Expert Financier</h2>
+                <p>
+                  Debra is certified cloud computing developer. Through her
+                  expert knowledge and industry experience, the appropriate
+                  cloud storage and computing solution right for your business
+                  will be developed.
+                </p>
+              </div>
+
+              <div class="recruit-slide swiper-slide">
+                <span class="bg-decor"></span>
+                <div class="image-animate">
+                  <img src="images/pro-portrait-3.jpg" alt="" />
+                  <h2>Innovative Designer</h2>
+                </div>
+                <h3>Connor Gulliver</h3>
+                <p>
+                  Connor is a young but highly innovative and determined
+                  designer. His intrepid yet captivating designs will ensure
+                  upstart business's will gab attention, and established
+                  businesses can venture into new but exciting designs while
+                  ensuring their consumers aren't turned off.
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        Original Work by Quinn Bruckmann 2023. This project is meant to show off
+        some css animation and styling skills.
+      </p>
+      <a href="#">
+        <i class="bx bx-up-arrow-alt"></i>
+      </a>
+    </footer>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
